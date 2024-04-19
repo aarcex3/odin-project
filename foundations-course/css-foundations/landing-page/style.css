@@ -1,0 +1,214 @@
+/* RESET AND BASE STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* HEADER STYLES */
+.container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.container p {
+    color: white;
+    font-size: 24px;
+    align-self: center;
+    margin-left: -70px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin-right: -20px;
+}
+
+ul li a {
+    font-size: 18px;
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: #1f2937;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    color: #e5e7eb;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.learn-more {
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    align-self: flex-start;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* MAIN CONTENT SECTION */
+.container-two {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title {
+    align-content: flex-start;
+}
+
+.card-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+/* SPECIFIC CARD STYLES */
+.planet,
+.black-hole,
+.galaxy,
+.star {
+    display: flex;
+    flex-basis: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    row-gap: 20px;
+    font-size: 12px;
+}
+
+.card-info img {
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+/* QUOTE SECTION */
+.container-three {
+    background-color: #e5e7eb;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-left: 50px;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-right: 70px;
+}
+
+/* SIGN UP SECTION */
+.container-four {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    display: flex;
+    color: white;
+    border-radius: 10px;
+    text-align: start;
+    flex-basis: 800px;
+    justify-content: space-between;
+    padding: 40px 70px;
+}
+
+.sign-up-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+    gap: 7px;
+}
+
+.sign-btn {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    padding: 5px 35px;
+}
+
+/* FOOTER SECTION */
+.container-five {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 80px;
+    align-items: center;
+}
