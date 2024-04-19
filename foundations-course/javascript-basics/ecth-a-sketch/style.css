@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: grid;
+    width: 960px;
+    height: 960px;
+    border: 2px solid #333;
+}
+
+.square {
+    background-color: #fff;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
